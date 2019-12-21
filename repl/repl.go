@@ -3,9 +3,10 @@ package repl
 import (
 	"bufio"
 	"fmt"
+	"io"
+
 	"github.com/rabingaire/sanskriti/lexer"
 	"github.com/rabingaire/sanskriti/token"
-	"io"
 )
 
 // PROMPT ...

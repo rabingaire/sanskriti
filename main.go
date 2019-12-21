@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/rabingaire/sanskriti/repl"
 	"os"
 	"os/user"
+
+	"github.com/rabingaire/sanskriti/repl"
 )
 
 func main() {

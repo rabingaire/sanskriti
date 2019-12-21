@@ -1,10 +1,11 @@
 package parser
 
-import "testing"
+import (
+	"testing"
 
-import "github.com/rabingaire/sanskriti/lexer"
-
-import "github.com/rabingaire/sanskriti/ast"
+	"github.com/rabingaire/sanskriti/ast"
+	"github.com/rabingaire/sanskriti/lexer"
+)
 
 func TestLetStatements(t *testing.T) {
 	input := `
