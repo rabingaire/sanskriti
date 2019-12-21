@@ -140,7 +140,7 @@ func (es *ExpressionStatement) String() string {
 	return ""
 }
 
-func (es *ExpressionStatement) expressionNode() {
+func (es *ExpressionStatement) statementNode() {
 
 }
 
