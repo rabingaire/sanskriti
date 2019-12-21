@@ -3,13 +3,15 @@ package repl
 import (
 	"bufio"
 	"fmt"
+	"github.com/rabingaire/sanskriti/lexer"
+	"github.com/rabingaire/sanskriti/token"
 	"io"
-	"../lexer"
-	"../token"
 )
 
+// PROMPT ...
 const PROMPT = "#= "
 
+// Start ...
 func Start(in io.Reader, out io.Writer) {
 	scanner := bufio.NewScanner(in)
 
@@ -18,7 +20,7 @@ func Start(in io.Reader, out io.Writer) {
 		scanned := scanner.Scan()
 
 		if !scanned {
-			return 
+			return
 		}
 
 		line := scanner.Text()
