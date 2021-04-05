@@ -3,7 +3,7 @@ package ast
 import (
 	"bytes"
 
-	"github.com/rabingaire/sanskriti/token"
+	"github.com/rabingaire/monkey/token"
 )
 
 // Node ...

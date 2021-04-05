@@ -1,3 +1,3 @@
-module github.com/rabingaire/sanskriti
+module github.com/rabingaire/monkey
 
 go 1.13

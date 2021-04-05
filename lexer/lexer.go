@@ -1,6 +1,6 @@
 package lexer
 
-import "github.com/rabingaire/sanskriti/token"
+import "github.com/rabingaire/monkey/token"
 
 // Lexer ...
 type Lexer struct {

@@ -3,9 +3,9 @@ package parser
 import (
 	"fmt"
 
-	"github.com/rabingaire/sanskriti/ast"
-	"github.com/rabingaire/sanskriti/lexer"
-	"github.com/rabingaire/sanskriti/token"
+	"github.com/rabingaire/monkey/ast"
+	"github.com/rabingaire/monkey/lexer"
+	"github.com/rabingaire/monkey/token"
 )
 
 // Precidence

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/rabingaire/sanskriti/lexer"
-	"github.com/rabingaire/sanskriti/token"
+	"github.com/rabingaire/monkey/lexer"
+	"github.com/rabingaire/monkey/token"
 )
 
 // PROMPT ...

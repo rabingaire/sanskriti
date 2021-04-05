@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/rabingaire/sanskriti/repl"
+	"github.com/rabingaire/monkey/repl"
 )
 
 func main() {
@@ -13,7 +13,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Hello %s! Welcome to Sanskriti Programming Language build by @rabingaire! \n", user.Username)
+	fmt.Printf("Hello %s! Welcome to Monkey Programming Language\n", user.Username)
 	fmt.Printf("To Exit type ^C Thank You! \n")
 	repl.Start(os.Stdin, os.Stdout)
 }
